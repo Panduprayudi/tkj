@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 576px;
+    margin: auto;
+    background-image: url(img/bg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+.judul1 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.judul1 h2 {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    border-radius: 25px;
+    font-size: 40px;
+    letter-spacing: 1px;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+
+.judul2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 30px;
+    
+}
+
+.judul2 h3 {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-top: 1px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+nav {
+    border-radius:5px;
+    margin: 15px;
+    background-color: white;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+.navigasi {
+    width: 100%;
+    background-color:#6e6e6e ;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    box-sizing: border-box;
+    display: block;
+  
+ }
+
+ .navigasi a {
+    text-decoration: none;
+    color: black;
+    
+ }
+
+
+
+.navigasi li {
+    font-size: 18px;
+    list-style: none;
+    color: white;
+    
+}
+
+
+
+.drop {
+    display: none;
+    
+} 
+
+
+.navigasi li:hover .drop {
+    display: block;
+}
+
+.gambar01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+ 
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;   
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 8px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
